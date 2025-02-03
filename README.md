@@ -28,11 +28,10 @@ Download the files through the link provided above. Extract the folder to somewh
 </p>
 <br />
 
+![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/a44dbfa2-69b6-4be9-8a26-258c6d6971a8)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ENABLING IIS (WITH CGI):
+  Hit the windows key, type, and click "Turn Windows features on or off". A window will pop up with many options and drop downs, the only one we will need to check mark will be CGI. This is found in 'Internet Information Services' > 'World Wide Web Services' > 'Application Development Features' > 'CGI'. Checking this box should also check all the parent options as well. The location is shown in the picture above.
 </p>
 <br />
 
