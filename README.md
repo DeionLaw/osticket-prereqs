@@ -31,7 +31,12 @@ Download the files through the link provided above. Extract the folder to somewh
 ![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/a44dbfa2-69b6-4be9-8a26-258c6d6971a8)
 <p>
 ENABLING IIS (WITH CGI):
-  Hit the windows key, type, and click "Turn Windows features on or off". A window will pop up with many options and drop downs, the only one we will need to check mark will be CGI. This is found in 'Internet Information Services' > 'World Wide Web Services' > 'Application Development Features' > 'CGI'. Checking this box should also check all the parent options as well. The location is shown in the picture above.
+</p>
+<p>
+  Hit the windows key, type, and click "Turn Windows features on or off".
+</p>
+<p>
+  A window will pop up with many options and drop downs, the only one we will need to check mark will be CGI. This is found in 'Internet Information Services' > 'World Wide Web Services' > 'Application Development Features' > 'CGI'. Checking this box should also check all the parent options as well. The location is shown in the picture above.
 </p>
 <br />
 
