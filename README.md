@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![Screenshot 2025-02-03 100819](https://github.com/user-attachments/assets/680724ad-65de-490b-afaa-9a98b252d4be)
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Download the files through the link provided above. Extract the folder to somewhere that makes sense for you, and you will be left with a folder containing the files shown in the picture above.
 </p>
 <br />
 
