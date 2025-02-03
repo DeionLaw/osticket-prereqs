@@ -86,3 +86,26 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
 <p>
   Now, in IIS, we can use the dropdown on the left to go to 'Sites' > 'Default Web Site' > 'osTicket' and click 'Browse *:80' from the action bar to the right on IIS. osTicket should open up, and you'll have something that looks like the screenshots above.
 </p>
+
+![Screenshot 2025-02-03 120512](https://github.com/user-attachments/assets/ed1cca72-4aab-4b46-914f-ffc1b8c9f9b6)
+
+<p>
+  Next, we will have to enable some extensions, return back to 'Sites' > 'Default Web Site' and click 'PHP Manager' then 'Enable or disable an extension' as shown above.
+</p>
+
+![Screenshot 2025-02-03 121009](https://github.com/user-attachments/assets/dd434d05-363b-41ad-9da0-5b87c6dc0447)
+
+<p>
+  The extensions you will want to choose will be as follows: 1. 'php_imap.dll' 2. 'php_intl.dll' 3. 'php_opcache.dll', simply right click them, and click enable. Mine in the screenshot above are already enabled, yours will be in the lighter, disabled section.
+</p>
+
+![Screenshot 2025-02-03 121338](https://github.com/user-attachments/assets/84858617-00a1-4dfa-98f1-e7df5093c6d2)
+<p>
+  Next, inside the location at 'C:\inetpub\wwwroot\osTicket\include\' change the name of the file 'ost-sampleconfig.php' to 'ost-config.php'. After this right click the file, select 'Properties', 'security' from the tabs above the new window, click 'Advanced' near the bottom them 'Disabled inheritance' when the pop up comes up click 'Remove all inherited permissions from this object.' then click 'Add', at the top click 'Select a principal', in the box you can type 'everyone and push 'Check Names' to the right, click ok and select 'Full control'. This is not how you would approach this in real life, if you're setting this up in a real world environment, you would give access to those who need it. You can now choose 'Apply' and 'Ok'. You can now choose 'continue' from the osTicket page to continue.
+</p>
+
+![Screenshot 2025-02-03 123830](https://github.com/user-attachments/assets/9811d839-e6aa-4e33-8d55-ef34165020b0)
+
+<p>
+  Next, install HeidiSQL (HeidiSQL_12.3.0.6589_Setup) from the files provided. Simply click on the file shown above, leaves things default, and proceed through the prompts.
+</p>
