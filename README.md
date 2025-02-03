@@ -49,10 +49,15 @@ ENABLING IIS (WITH CGI):
 </p>
 <br />
 
+![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/27da3bbb-91fa-4035-bf23-f48f1a140949)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once again in the files/folder provided, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) and the Rewrite Module (rewrite_amd64_en-US.msi). The files are highlited above, simply follow the prompts that are given.
 </p>
 <br />
+
+![Screenshot 2025-02-03 105006](https://github.com/user-attachments/assets/9e978742-2aee-48fc-98a7-a972d0bb8039)
+![image](https://github.com/user-attachments/assets/d98730a1-a8c4-4a2f-85d1-769c6bec2572)
+<p>
+  Next we will create a folder on the root of the C drive and extract the files from the php-7.3.8-nts-Win32-VC15-x86 zip file to this location. This is shown in the first multiwindow screenshot above. After you should be left with what is shown in the second screenshot.
+</p>
+
