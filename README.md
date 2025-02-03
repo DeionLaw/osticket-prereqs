@@ -39,7 +39,10 @@ ENABLING IIS (WITH CGI):
   A window will pop up with many options and dropdowns, the only one we will need to check mark will be CGI.
 </p>
 <p>
-  This is found in 'Internet Information Services' > 'World Wide Web Services' > 'Application Development Features' > 'CGI'. Checking this box should also check all the parent options as well. The location is shown and highlighted (poorly) in the picture above.
+  This is found in 'Internet Information Services' > 'World Wide Web Services' > 'Application Development Features' > 'CGI'. 
+</p>
+<p>
+  Checking this box should also check all the parent options as well. The location is shown and highlighted (poorly) in the picture above.
 </p>
 <p>
   Follow the prompts and IIS with CGI will be enabled.
