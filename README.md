@@ -29,7 +29,7 @@ Download the files through the link provided above. Extract the folder to somewh
 <br />
 
 ![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/a44dbfa2-69b6-4be9-8a26-258c6d6971a8)
-<p>
+<p align="center">
 ENABLING IIS (WITH CGI):
 </p>
 <p>
