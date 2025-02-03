@@ -116,3 +116,4 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
   When HeidiSQL opens click the new button and provide the root username and password that you set when you installed mySQL.
 </p>
 
+![Screenshot (1)](https://github.com/user-attachments/assets/66588a07-ba8d-453e-af9a-d562325cae8b)
