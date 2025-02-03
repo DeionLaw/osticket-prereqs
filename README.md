@@ -107,5 +107,12 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
 ![Screenshot 2025-02-03 123830](https://github.com/user-attachments/assets/9811d839-e6aa-4e33-8d55-ef34165020b0)
 
 <p>
-  Next, install HeidiSQL (HeidiSQL_12.3.0.6589_Setup) from the files provided. Simply click on the file shown above, leaves things default, and proceed through the prompts.
+  Next, install HeidiSQL (HeidiSQL_12.3.0.6589_Setup) from the files provided. Simply click on the file shown above, leaves things default, and proceed through the prompts. Have 'Launch HeidiSQL' checked at the end of the installation. 
 </p>
+
+![Screenshot 2025-02-03 124133](https://github.com/user-attachments/assets/d394f054-e43e-4735-8cd7-08ce059a7b9f)
+
+<p>
+  When HeidiSQL opens click the new button and provide the root username and password that you set when you installed mySQL.
+</p>
+
