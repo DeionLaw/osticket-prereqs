@@ -117,3 +117,26 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
 </p>
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/66588a07-ba8d-453e-af9a-d562325cae8b)
+![Screenshot 2025-02-03 125345](https://github.com/user-attachments/assets/943ea493-eb3f-44d1-8aa6-58e8892eda3d)
+
+
+<p>
+  Afterwards, right click the 'Unnamed', click 'Create new' > 'Database'. Set the name to 'osTicket', this is case sensitive.
+</p>
+
+![Screenshot 2025-02-03 125606](https://github.com/user-attachments/assets/bd073851-9c9f-49c0-8e51-c926c6913d72)
+
+<p>
+  Now you can finish the setup, providing the information that you want, and at the end using the root password we set in the mySQL setup.
+</p>
+
+<p>
+  osTicket is now installed :) 
+</p>
+<p>
+  The login page should be here: http://localhost/osTicket/scp/login.php
+</p>
+<p>
+  and the endusers can login at: http://localhost/osTicket/ 
+</p>
+
