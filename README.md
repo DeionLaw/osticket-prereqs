@@ -28,6 +28,8 @@ Download the files through the link provided above. Extract the folder to somewh
 </p>
 <br />
 
+---
+
 ![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/a44dbfa2-69b6-4be9-8a26-258c6d6971a8)
 <p align="center">
 ENABLING IIS (WITH CGI):
@@ -49,22 +51,30 @@ ENABLING IIS (WITH CGI):
 </p>
 <br />
 
+---
+
 ![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/27da3bbb-91fa-4035-bf23-f48f1a140949)
 <p>
 Once again in the files/folder provided, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) and the Rewrite Module (rewrite_amd64_en-US.msi). The files are highlited above, simply follow the prompts that are given.
 </p>
 <br />
 
+---
+
 ![Screenshot 2025-02-03 105006](https://github.com/user-attachments/assets/9e978742-2aee-48fc-98a7-a972d0bb8039)
 ![image](https://github.com/user-attachments/assets/d98730a1-a8c4-4a2f-85d1-769c6bec2572)
 <p>
-  Next we will create a folder on the root of the C drive and extract the files from the php-7.3.8-nts-Win32-VC15-x86 zip file to this location. This is shown in the first multiwindow screenshot above. After you should be left with what is shown in the second screenshot.
+  Next we will create a folder on the root of the C drive called 'PHP' and extract the files from the php-7.3.8-nts-Win32-VC15-x86 zip file to this location. This is shown in the first multiwindow screenshot above. After you should be left with what is shown in the second screenshot.
 </p>
+
+---
 
 ![Screenshot 2025-02-03 105714](https://github.com/user-attachments/assets/90fde048-26f2-4575-8510-de5332a29d0c)
 <p>
   Next we will install (VC_redist.x86) and then (mysql-5.5.62-win32). The 2 files are shown in the screenshot above. When given the options on the mysql install, choose typical setup, launch the configuration wizard after and when prompted to set the security settings set your own root password, do NOT forget this password.
 </p>
+
+---
 
 ![Screenshot 2025-02-03 113847](https://github.com/user-attachments/assets/a239bf53-214b-4dab-b2ed-2b0248b0f848)
 <p>
@@ -75,11 +85,15 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
   Afterwards, click stop and then start from the action bar on the right of IIS.
 </p>
 
+---
+
 ![Screenshot 2025-02-03 114630](https://github.com/user-attachments/assets/15700f77-0b2b-4e17-9e29-3734d0296db1)
 
 <p>
   Next unzip the 'osTicket-v.1.15.8' zip file provided and copy/move the 'upload' folder to 'C:\inetpub\wwwroot', afterwards, change the name from 'upload' to 'osTicket'. Restart the server as we did earlier by clicking stop and start from the action bar in IIS.
 </p>
+
+---
 
 ![Screenshot 2025-02-03 115051](https://github.com/user-attachments/assets/12eff5fc-ac87-4b8a-a3c2-3dbbef2425d1)
 
@@ -87,11 +101,15 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
   Now, in IIS, we can use the dropdown on the left to go to 'Sites' > 'Default Web Site' > 'osTicket' and click 'Browse *:80' from the action bar to the right on IIS. osTicket should open up, and you'll have something that looks like the screenshots above.
 </p>
 
+---
+
 ![Screenshot 2025-02-03 120512](https://github.com/user-attachments/assets/ed1cca72-4aab-4b46-914f-ffc1b8c9f9b6)
 
 <p>
   Next, we will have to enable some extensions, return back to 'Sites' > 'Default Web Site' and click 'PHP Manager' then 'Enable or disable an extension' as shown above.
 </p>
+
+---
 
 ![Screenshot 2025-02-03 121009](https://github.com/user-attachments/assets/dd434d05-363b-41ad-9da0-5b87c6dc0447)
 
@@ -99,10 +117,14 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
   The extensions you will want to choose will be as follows: 1. 'php_imap.dll' 2. 'php_intl.dll' 3. 'php_opcache.dll', simply right click them, and click enable. Mine in the screenshot above are already enabled, yours will be in the lighter, disabled section.
 </p>
 
+---
+
 ![Screenshot 2025-02-03 121338](https://github.com/user-attachments/assets/84858617-00a1-4dfa-98f1-e7df5093c6d2)
 <p>
   Next, inside the location at 'C:\inetpub\wwwroot\osTicket\include\' change the name of the file 'ost-sampleconfig.php' to 'ost-config.php'. After this right click the file, select 'Properties', 'security' from the tabs above the new window, click 'Advanced' near the bottom them 'Disabled inheritance' when the pop up comes up click 'Remove all inherited permissions from this object.' then click 'Add', at the top click 'Select a principal', in the box you can type 'everyone and push 'Check Names' to the right, click ok and select 'Full control'. This is not how you would approach this in real life, if you're setting this up in a real world environment, you would give access to those who need it. You can now choose 'Apply' and 'Ok'. You can now choose 'continue' from the osTicket page to continue.
 </p>
+
+---
 
 ![Screenshot 2025-02-03 123830](https://github.com/user-attachments/assets/9811d839-e6aa-4e33-8d55-ef34165020b0)
 
@@ -110,11 +132,15 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
   Next, install HeidiSQL (HeidiSQL_12.3.0.6589_Setup) from the files provided. Simply click on the file shown above, leaves things default, and proceed through the prompts. Have 'Launch HeidiSQL' checked at the end of the installation. 
 </p>
 
+---
+
 ![Screenshot 2025-02-03 124133](https://github.com/user-attachments/assets/d394f054-e43e-4735-8cd7-08ce059a7b9f)
 
 <p>
   When HeidiSQL opens click the new button and provide the root username and password that you set when you installed mySQL.
 </p>
+
+---
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/66588a07-ba8d-453e-af9a-d562325cae8b)
 ![Screenshot 2025-02-03 125345](https://github.com/user-attachments/assets/943ea493-eb3f-44d1-8aa6-58e8892eda3d)
@@ -123,6 +149,8 @@ Once again in the files/folder provided, install PHP Manager for IIS (PHPManager
 <p>
   Afterwards, right click the 'Unnamed', click 'Create new' > 'Database'. Set the name to 'osTicket', this is case sensitive.
 </p>
+
+---
 
 ![Screenshot 2025-02-03 125606](https://github.com/user-attachments/assets/bd073851-9c9f-49c0-8e51-c926c6913d72)
 
