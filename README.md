@@ -53,7 +53,8 @@ ENABLING IIS (WITH CGI):
 
 ---
 
-![Screenshot 2025-02-03 102725](https://github.com/user-attachments/assets/27da3bbb-91fa-4035-bf23-f48f1a140949)
+![Screenshot 2025-02-03 104322](https://github.com/user-attachments/assets/681a8d24-bd01-4231-bd2c-332f89a29a83)
+
 <p>
 Once again in the files/folder provided, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) and the Rewrite Module (rewrite_amd64_en-US.msi). The files are highlited above, simply follow the prompts that are given.
 </p>
